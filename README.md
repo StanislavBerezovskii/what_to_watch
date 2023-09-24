@@ -1,6 +1,6 @@
-### Как запустить проект:
+### Launching the Project:
 
-Клонировать репозиторий и перейти в него в командной строке:
+Clone the repository and switch to it in the command line:
 
 ```
 git clone 
@@ -10,7 +10,7 @@ git clone
 cd what_to_watch
 ```
 
-Cоздать и активировать виртуальное окружение:
+Create and activate a virtual environment:
 
 ```
 python3 -m venv venv
@@ -19,13 +19,13 @@ python3 -m venv venv
 ```
 source venv/bin/activate
 ```
-или для пользователей Windows
+for Windows users:
 
 ```
 source env/Scripts/activate
 ```
 
-Установить зависимости из файла requirements.txt:
+Install dependencies from the requirements.txt file:
 
 ```
 python3 -m pip install --upgrade pip
@@ -35,7 +35,7 @@ python3 -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Запустить проект:
+Run the project:
 
 ```
 flask run
